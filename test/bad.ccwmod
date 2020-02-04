@@ -1,0 +1,174 @@
+<xmodbusServer Version="2.0">
+  <modbusRegister name="COILS">
+    <mapping variable="_IO_EM_DO_00" parent="Micro820" dataType="Bool" address="000001" va="0x414">
+      <MBVarInfo ElemType="Bool" SubElemType="Any" DataTypeSize="1" />
+    </mapping>
+    <mapping variable="_IO_EM_DO_01" parent="Micro820" dataType="Bool" address="000002" va="0x415">
+      <MBVarInfo ElemType="Bool" SubElemType="Any" DataTypeSize="1" />
+    </mapping>
+    <mapping variable="_IO_EM_DO_02" parent="Micro820" dataType="Bool" address="000003" va="0x416">
+      <MBVarInfo ElemType="Bool" SubElemType="Any" DataTypeSize="1" />
+    </mapping>
+    <mapping variable="_IO_EM_DO_03" parent="Micro820" dataType="Bool" address="000004" va="0x417">
+      <MBVarInfo ElemType="Bool" SubElemType="Any" DataTypeSize="1" />
+    </mapping>
+    <mapping variable="_IO_EM_DO_04" parent="Micro820" dataType="Bool" address="000005" va="0x418">
+      <MBVarInfo ElemType="Bool" SubElemType="Any" DataTypeSize="1" />
+    </mapping>
+    <mapping variable="_IO_EM_DO_05" parent="Micro820" dataType="Bool" address="000006" va="0x419">
+      <MBVarInfo ElemType="Bool" SubElemType="Any" DataTypeSize="1" />
+    </mapping>
+    <mapping variable="_IO_EM_DO_06" parent="Micro820" dataType="Bool" address="000007" va="0x41a">
+      <MBVarInfo ElemType="Bool" SubElemType="Any" DataTypeSize="1" />
+    </mapping>
+    <mapping variable="_IO_EM_DI_00" parent="Micro820" dataType="Bool" address="000101" va="0x41b">
+      <MBVarInfo ElemType="Bool" SubElemType="Any" DataTypeSize="1" />
+    </mapping>
+    <mapping variable="_IO_EM_DI_01" parent="Micro820" dataType="Bool" address="000102" va="0x41c">
+      <MBVarInfo ElemType="Bool" SubElemType="Any" DataTypeSize="1" />
+    </mapping>
+    <mapping variable="_IO_EM_DI_02" parent="Micro820" dataType="Bool" address="000103" va="0x41d">
+      <MBVarInfo ElemType="Bool" SubElemType="Any" DataTypeSize="1" />
+    </mapping>
+    <mapping variable="_IO_EM_DI_03" parent="Micro820" dataType="Bool" address="000104" va="0x41e">
+      <MBVarInfo ElemType="Bool" SubElemType="Any" DataTypeSize="1" />
+    </mapping>
+    <mapping variable="_IO_EM_DI_04" parent="Micro820" dataType="Bool" address="000105" va="0x41f">
+      <MBVarInfo ElemType="Bool" SubElemType="Any" DataTypeSize="1" />
+    </mapping>
+    <mapping variable="_IO_EM_DI_05" parent="Micro820" dataType="Bool" address="000106" va="0x420">
+      <MBVarInfo ElemType="Bool" SubElemType="Any" DataTypeSize="1" />
+    </mapping>
+    <mapping variable="_IO_EM_DI_06" parent="Micro820" dataType="Bool" address="000107" va="0x421">
+      <MBVarInfo ElemType="Bool" SubElemType="Any" DataTypeSize="1" />
+    </mapping>
+    <mapping variable="_IO_EM_DI_07" parent="Micro820" dataType="Bool" address="000108" va="0x422">
+      <MBVarInfo ElemType="Bool" SubElemType="Any" DataTypeSize="1" />
+    </mapping>
+    <mapping variable="_IO_EM_DI_08" parent="Micro820" dataType="Bool" address="000109" va="0x423">
+      <MBVarInfo ElemType="Bool" SubElemType="Any" DataTypeSize="1" />
+    </mapping>
+    <mapping variable="_IO_EM_DI_09" parent="Micro820" dataType="Bool" address="000110" va="0x424">
+      <MBVarInfo ElemType="Bool" SubElemType="Any" DataTypeSize="1" />
+    </mapping>
+    <mapping variable="_IO_EM_DI_10" parent="Micro820" dataType="Bool" address="000111" va="0x425">
+      <MBVarInfo ElemType="Bool" SubElemType="Any" DataTypeSize="1" />
+    </mapping>
+    <mapping variable="_IO_EM_DI_11" parent="Micro820" dataType="Bool" address="000112" va="0x426">
+      <MBVarInfo ElemType="Bool" SubElemType="Any" DataTypeSize="1" />
+    </mapping>
+    <mapping variable="__SYSVA_MAJ_ERR_HALT" parent="Micro820" dataType="Bool" address="000201" va="0x188">
+      <MBVarInfo ElemType="Bool" SubElemType="Any" DataTypeSize="1" />
+    </mapping>
+    <mapping variable="AC_En@Main" parent="Main" dataType="Bool" address="000401">
+      <MBVarInfo ElemType="Bool" SubElemType="Any" DataTypeSize="1" />
+    </mapping>
+    <mapping variable="MOV1_Cmd_En@Main" parent="Main" dataType="Bool" address="000402">
+      <MBVarInfo ElemType="Bool" SubElemType="Any" DataTypeSize="1" />
+    </mapping>
+    <mapping variable="MOV2_Cmd_En@Main" parent="Main" dataType="Bool" address="000403">
+      <MBVarInfo ElemType="Bool" SubElemType="Any" DataTypeSize="1" />
+    </mapping>
+  </modbusRegister>
+  <modbusRegister name="HOLDING_REGISTERS">
+    <mapping variable="_IO_EM_AO_00" parent="Micro820" dataType="Word" address="400001" va="0x430">
+      <MBVarInfo ElemType="Word" SubElemType="Any" DataTypeSize="2" />
+    </mapping>
+    <mapping variable="_IO_P2_AO_00" parent="Micro820" dataType="UInt" address="400051" va="0x43a">
+      <MBVarInfo ElemType="UInt" SubElemType="Any" DataTypeSize="2" />
+    </mapping>
+    <mapping variable="_IO_P2_AO_01" parent="Micro820" dataType="UInt" address="400052" va="0x43c">
+      <MBVarInfo ElemType="UInt" SubElemType="Any" DataTypeSize="2" />
+    </mapping>
+    <mapping variable="_IO_EM_AI_00" parent="Micro820" dataType="Word" address="400101" va="0x428">
+      <MBVarInfo ElemType="Word" SubElemType="Any" DataTypeSize="2" />
+    </mapping>
+    <mapping variable="_IO_EM_AI_01" parent="Micro820" dataType="Word" address="400102" va="0x42a">
+      <MBVarInfo ElemType="Word" SubElemType="Any" DataTypeSize="2" />
+    </mapping>
+    <mapping variable="_IO_EM_AI_02" parent="Micro820" dataType="Word" address="400103" va="0x42c">
+      <MBVarInfo ElemType="Word" SubElemType="Any" DataTypeSize="2" />
+    </mapping>
+    <mapping variable="_IO_EM_AI_03" parent="Micro820" dataType="Word" address="400104" va="0x42e">
+      <MBVarInfo ElemType="Word" SubElemType="Any" DataTypeSize="2" />
+    </mapping>
+    <mapping variable="_IO_P1_AI_00" parent="Micro820" dataType="UInt" address="400151" va="0x432">
+      <MBVarInfo ElemType="UInt" SubElemType="Any" DataTypeSize="2" />
+    </mapping>
+    <mapping variable="_IO_P1_AI_01" parent="Micro820" dataType="UInt" address="400152" va="0x434">
+      <MBVarInfo ElemType="UInt" SubElemType="Any" DataTypeSize="2" />
+    </mapping>
+    <mapping variable="_IO_P1_AI_02" parent="Micro820" dataType="UInt" address="400153" va="0x436">
+      <MBVarInfo ElemType="UInt" SubElemType="Any" DataTypeSize="2" />
+    </mapping>
+    <mapping variable="_IO_P1_AI_03" parent="Micro820" dataType="UInt" address="400154" va="0x438">
+      <MBVarInfo ElemType="UInt" SubElemType="Any" DataTypeSize="2" />
+    </mapping>
+    <mapping variable="_Year" parent="Micro820" dataType="UInt" address="400201" va="0x472">
+      <MBVarInfo ElemType="UInt" SubElemType="Any" DataTypeSize="2" />
+    </mapping>
+    <mapping variable="_Month" parent="Micro820" dataType="UInt" address="400202" va="0x474">
+      <MBVarInfo ElemType="UInt" SubElemType="Any" DataTypeSize="2" />
+    </mapping>
+    <mapping variable="_Day" parent="Micro820" dataType="UInt" address="400203" va="0x476">
+      <MBVarInfo ElemType="UInt" SubElemType="Any" DataTypeSize="2" />
+    </mapping>
+    <mapping variable="_Hours" parent="Micro820" dataType="UInt" address="400204" va="0x478">
+      <MBVarInfo ElemType="UInt" SubElemType="Any" DataTypeSize="2" />
+    </mapping>
+    <mapping variable="_Minutes" parent="Micro820" dataType="UInt" address="400205" va="0x47a">
+      <MBVarInfo ElemType="UInt" SubElemType="Any" DataTypeSize="2" />
+    </mapping>
+    <mapping variable="_Seconds" parent="Micro820" dataType="UInt" address="400206" va="0x47c">
+      <MBVarInfo ElemType="UInt" SubElemType="Any" DataTypeSize="2" />
+    </mapping>
+    <mapping variable="_DayOfWeek" parent="Micro820" dataType="UInt" address="400207" va="0x47e">
+      <MBVarInfo ElemType="UInt" SubElemType="Any" DataTypeSize="2" />
+    </mapping>
+    <mapping variable="MOV1_Cmd_Percent@Main" parent="Main" dataType="Real" address="400403">
+      <MBVarInfo ElemType="Real" SubElemType="Any" DataTypeSize="4" />
+    </mapping>
+    <mapping variable="MOV1_FB_Percent@Main" parent="Main" dataType="Real" address="400405">
+      <MBVarInfo ElemType="Real" SubElemType="Any" DataTypeSize="4" />
+    </mapping>
+    <mapping variable="MOV2_Cmd_Percent@Main" parent="Main" dataType="Real" address="400407">
+      <MBVarInfo ElemType="Real" SubElemType="Any" DataTypeSize="4" />
+    </mapping>
+    <mapping variable="MOV2_FB_Percent@Main" parent="Main" dataType="Real" address="400409">
+      <MBVarInfo ElemType="Real" SubElemType="Any" DataTypeSize="4" />
+    </mapping>
+    <mapping variable="BattV@Main" parent="Main" dataType="Real" address="400401">
+      <MBVarInfo ElemType="Real" SubElemType="Any" DataTypeSize="4" />
+    </mapping>
+    <mapping variable="Flow1_gpm@Main" parent="Main" dataType="Real" address="400411">
+      <MBVarInfo ElemType="Real" SubElemType="Any" DataTypeSize="4" />
+    </mapping>
+    <mapping variable="Flow2_gpm@Main" parent="Main" dataType="Real" address="400413">
+      <MBVarInfo ElemType="Real" SubElemType="Any" DataTypeSize="4" />
+    </mapping>
+    <mapping variable="Flow1_T_Today" parent="Micro820" dataType="UDInt" address="400415">
+      <MBVarInfo ElemType="UDInt" SubElemType="Any" DataTypeSize="4" />
+    </mapping>
+    <mapping variable="Flow1_T_Yesterday" parent="Micro820" dataType="UDInt" address="400417">
+      <MBVarInfo ElemType="UDInt" SubElemType="Any" DataTypeSize="4" />
+    </mapping>
+    <mapping variable="Flow1_T_MTD" parent="Micro820" dataType="UDInt" address="400419">
+      <MBVarInfo ElemType="UDInt" SubElemType="Any" DataTypeSize="4" />
+    </mapping>
+    <mapping variable="Flow1_T_LastMonth" parent="Micro820" dataType="UDInt" address="400421">
+      <MBVarInfo ElemType="UDInt" SubElemType="Any" DataTypeSize="4" />
+    </mapping>
+    <mapping variable="Flow2_T_Today" parent="Micro820" dataType="UDInt" address="400423">
+      <MBVarInfo ElemType="UDInt" SubElemType="Any" DataTypeSize="4" />
+    </mapping>
+    <mapping variable="Flow2_T_Yesterday" parent="Micro820" dataType="UDInt" address="400425">
+      <MBVarInfo ElemType="UDInt" SubElemType="Any" DataTypeSize="4" />
+    </mapping>
+    <mapping variable="Flow2_T_MTD" parent="Micro820" dataType="UDInt" address="400427">
+      <MBVarInfo ElemType="UDInt" SubElemType="Any" DataTypeSize="4" />
+    </mapping>
+    <mapping variable="Flow2_T_LastMonth" parent="Micro820" dataType="UDInt" address="400429">
+      <MBVarInfo ElemType="UDInt" SubElemType="Any" DataTypeSize="4" />
+    </mapping>
+  </modbusRegister>
+</xmodbusServer>
