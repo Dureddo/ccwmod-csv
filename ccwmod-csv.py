@@ -65,7 +65,8 @@ typeMap = {"Bool":"Boolean",
            "DInt":"Long",
            "DWord":"Dword",
            "UDInt":"Dword",
-           "Real":"Float"
+           "Real":"Float",
+           "AnyArray":"String"
           }
 
 try:
